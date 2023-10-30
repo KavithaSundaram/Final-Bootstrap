@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Nunito&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;1,6..12,300&family=Playfair+Display&family=Poppins:ital,wght@1,300&family=Sometype+Mono:wght@500&display=swap');
+*{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+.rest{
+    color: white;
+}
+.rest:hover{
+    color: white;
+    background-color: rgb(4, 4, 134);
+    border-radius: 10px;
+}
+.icon{
+    padding: 15px;
+    color: yellow;
+}
+/*#home{
+    position: sticky;
+    top: 0;
+}*/
+.head{
+    background-color: rgb(82, 82, 221);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+ul li a:hover{
+    color:yellow;
+    background-color: rgb(4, 4, 134);
+    border-radius: 10px;
+}
+.btn{
+    font-size: 24px;
+    color: black;
+    background-color: brown;
+}
+.detail p{
+    font-size: 22px;
+}
+#btn{
+    font-size: 22px;
+}
+#u-btn{
+    justify-content: space-between;
+}
+#company li{
+    list-style: none;
+}
+#company li a{
+    text-decoration: none;
+    padding: 10px;
+}
+#company li a:hover{
+    background-color: gray;
+}
+.foot{  
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+#foot:hover{
+    background-color: #ccc;
+}
